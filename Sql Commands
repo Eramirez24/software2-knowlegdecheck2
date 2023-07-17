@@ -1,0 +1,7 @@
+SELECT Address, ProductID FROM Products, Suppliers
+Where ProductID = '40'
+
+
+
+SELECT CustomerName, OrderID FROM Customers, Orders
+Where OrderID = '10310'
